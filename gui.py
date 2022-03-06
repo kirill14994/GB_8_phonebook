@@ -10,6 +10,10 @@ def get_adress_to_save():
 	path = fd.SaveAs(root, filetypes = [('*.txt files', '.txt'), ('*.csv files', '.csv')]).show()
 	return path
 
+def input_con(title):
+	return input(f'{title}: ')
+
+
 # def textarea():
 # 	textFrame = tk.Frame(height = 340, width = 600)
 # 	textFrame.grid(row = 2, column = 1)

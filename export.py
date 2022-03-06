@@ -1,5 +1,5 @@
-def export():
-    with open(r'Книга.xlsx','r') as f:
-        print(f.readline())
+def export(ex):
+    with open(r'generation_data.txt','r') as f:
+        print(f.read())
 
-export()
+# export()
